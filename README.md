@@ -27,7 +27,7 @@ A feature-rich, responsive to-do list application built using **HTML5**, **CSS3*
 
 ## Demo
 
-Try out the live demo [here](https://your-github-username.github.io/todo-app).
+Try out the live demo [here](https://balaji-spyder.github.io/to-do/).
 
 ---
 
