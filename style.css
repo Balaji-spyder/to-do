@@ -1,0 +1,174 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+h1 {
+    color: #343a40;
+}
+
+#todo-form .input-group {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#todo-form .input-group .form-control {
+    border: none;
+    border-right: 1px solid #dee2e6;
+}
+
+#todo-form .input-group .custom-select {
+    border: none;
+    border-right: 1px solid #dee2e6;
+}
+
+#todo-form .input-group .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#todo-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+#todo-list li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #f8f9fa;
+}
+
+#todo-list li.high {
+    border-left: 5px solid red;
+}
+
+#todo-list li.medium {
+    border-left: 5px solid orange;
+}
+
+#todo-list li.low {
+    border-left: 5px solid green;
+}
+
+#todo-list li.editing .task-span {
+    display: none;
+}
+
+#todo-list li.editing .edit-input {
+    display: inline-block;
+}
+
+#todo-list li.editing .save-button {
+    display: inline-block;
+}
+
+#todo-list li.editing .delete-button {
+    display: none;
+}
+
+#todo-list li.editing .complete-button {
+    display: none;
+}
+
+#todo-list li.editing .cancel-button {
+    display: inline-block;
+}
+
+#todo-list li .edit-input {
+    display: none;
+    width: 70%;
+    margin-right: 10px;
+}
+
+#todo-list li .save-button {
+    display: none;
+    margin-right: 10px;
+}
+
+#todo-list li .cancel-button {
+    display: none;
+    margin-right: 10px;
+}
+
+#todo-list li .btn {
+    margin-left: 5px;
+}
+
+#todo-list li .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+#todo-list li .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+#todo-list li .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+#todo-list li .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+#todo-list li .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+#todo-list li .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+#todo-list li .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+#todo-list li .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+#todo-list li .btn-secondary:hover {
+    background-color: #545b62;
+    border-color: #4e555b;
+}
+
+#todo-list li .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+#todo-list li .btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
